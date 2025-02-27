@@ -1,8 +1,12 @@
+import { Container, Typography } from "@mui/material";
+
 export default function About() {
   return (
-    <div className="p-8 text-center">
-      <h2 className="text-3xl font-bold">About Me</h2>
-      <p className="mt-4 text-gray-400">Find out more about my background and experience.</p>
-    </div>
+    <Container style={{ textAlign: "center", marginTop: "20vh" }}>
+      <Typography variant="h3" gutterBottom>About Me</Typography>
+      <Typography variant="h6" color="gray">
+        I am a software developer passionate about building web applications.
+      </Typography>
+    </Container>
   );
 }
